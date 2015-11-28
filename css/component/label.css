@@ -1,0 +1,147 @@
+.ui-label {
+  display: inline-block;
+  position: relative;
+  padding: 5px 0;
+  border: 1px solid #e0e0e0;
+  width: 23%;
+  margin: 0 2% 2% 0;
+  font-size: 14px;
+  text-align: center;
+  box-sizing: border-box;
+  background: #f8f8f8; }
+  .ui-label.active {
+    border: 1px solid #f75549;
+    color: #f75549; }
+  .ui-label-tit {
+    padding: 18px 0 20px; }
+
+.ui-label-list {
+  font-size: 0;
+  width: 102%; }
+  .ui-label-list .ui-label-s {
+    margin: 0 5px 5px 0; }
+
+.ui-label-s {
+  display: inline-block;
+  position: relative;
+  padding: 1px 12px;
+  font-size: 14px; }
+  .ui-label-s:active {
+    background-color: #f3f2f2; }
+  .ui-label-s:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px; }
+  .ui-label-s-1 {
+    color: #ffb625;
+    border: 1px solid #ffb625;
+    border-radius: 200px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      .ui-label-s-1 {
+        position: relative;
+        border: 0; }
+        .ui-label-s-1:before {
+          content: "";
+          width: 200%;
+          height: 200%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid #ffb625;
+          -webkit-transform: scale(0.5);
+          -webkit-transform-origin: 0 0;
+          padding: 1px;
+          -webkit-box-sizing: border-box;
+          border-radius: 200px;
+          pointer-events: none; } }
+  .ui-label-s-2 {
+    color: #ff4222;
+    border: 1px solid #ff4222;
+    border-radius: 200px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      .ui-label-s-2 {
+        position: relative;
+        border: 0; }
+        .ui-label-s-2:before {
+          content: "";
+          width: 200%;
+          height: 200%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid #ff4222;
+          -webkit-transform: scale(0.5);
+          -webkit-transform-origin: 0 0;
+          padding: 1px;
+          -webkit-box-sizing: border-box;
+          border-radius: 200px;
+          pointer-events: none; } }
+  .ui-label-s-3 {
+    color: #95acd6;
+    border: 1px solid #95acd6;
+    border-radius: 200px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      .ui-label-s-3 {
+        position: relative;
+        border: 0; }
+        .ui-label-s-3:before {
+          content: "";
+          width: 200%;
+          height: 200%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid #95acd6;
+          -webkit-transform: scale(0.5);
+          -webkit-transform-origin: 0 0;
+          padding: 1px;
+          -webkit-box-sizing: border-box;
+          border-radius: 200px;
+          pointer-events: none; } }
+  .ui-label-s-4 {
+    color: #9be4e7;
+    border: 1px solid #9be4e7;
+    border-radius: 200px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      .ui-label-s-4 {
+        position: relative;
+        border: 0; }
+        .ui-label-s-4:before {
+          content: "";
+          width: 200%;
+          height: 200%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid #9be4e7;
+          -webkit-transform: scale(0.5);
+          -webkit-transform-origin: 0 0;
+          padding: 1px;
+          -webkit-box-sizing: border-box;
+          border-radius: 200px;
+          pointer-events: none; } }
+  .ui-label-s-5 {
+    color: #5ecf96;
+    border: 1px solid #5ecf96;
+    border-radius: 200px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      .ui-label-s-5 {
+        position: relative;
+        border: 0; }
+        .ui-label-s-5:before {
+          content: "";
+          width: 200%;
+          height: 200%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid #5ecf96;
+          -webkit-transform: scale(0.5);
+          -webkit-transform-origin: 0 0;
+          padding: 1px;
+          -webkit-box-sizing: border-box;
+          border-radius: 200px;
+          pointer-events: none; } }

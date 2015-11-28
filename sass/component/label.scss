@@ -1,0 +1,72 @@
+@import
+
+    "../base/mixin",
+    "../base/variable";
+
+.ui-label{
+    display: inline-block;
+    position: relative;
+    padding: 5px 0;
+    border:1px solid $bordercolor;
+    width: 23%;
+    margin:0 2% 2% 0;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    background: $stable-bg;
+    //@include border-radius(#cacccd,15px,30px);
+    &.active{
+        border:1px solid $button-danger-bg-color;
+        color:$button-danger-bg-color;
+    }
+
+    &-tit{
+        padding:18px 0 20px;
+    }
+}
+.ui-label-list{
+    //box-sizing: border-box;
+    font-size: 0;
+    width: 102%;
+    .ui-label{
+        //border-radius: 1px !important;
+    }
+    .ui-label-s{
+        margin: 0 5px 5px 0;
+    }
+}
+.ui-label-s{
+    //font-size: 11px;
+    //line-height: 13px;
+    display: inline-block;
+    position: relative;
+    padding: 1px 12px;
+    font-size: 14px;
+    &:active{
+        background-color: #f3f2f2;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        top: -5px;
+        bottom: -5px;
+        left: -5px;
+        right: -5px;
+    }
+    &-1{
+        color: $txt-c1;
+        @include border-radius($txt-c1,200px,200px);
+    }&-2{
+        color: $txt-c2;
+        @include border-radius($txt-c2,200px,200px);
+    }&-3{
+        color: $txt-c3;
+        @include border-radius($txt-c3,200px,200px);
+    }&-4{
+        color: $txt-c4;
+        @include border-radius($txt-c4,200px,200px);
+    }&-5{
+        color: $txt-c5;
+        @include border-radius($txt-c5,200px,200px);
+    }
+}

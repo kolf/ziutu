@@ -1,0 +1,59 @@
+@import
+
+    "../base/mixin",
+    "../base/variable";
+
+.ui-panel{
+    &-list{
+        background: #fff;
+        padding: $wrap-padding-s $wrap-padding;
+        //margin-top:10px;
+    }
+    border:1px solid $bordercolor;
+    border-radius: $border-radius-base;
+    padding: $border-radius-base 0;
+    margin-bottom: 10px;
+    &-heading{
+        overflow: hidden;
+        color: $button-danger-bg-color;
+        padding:0 10px $border-radius-base;
+        border-bottom: 1px solid $bordercolor;
+    }
+
+    &-corner{
+        //background: url("../images");
+        position: relative;
+        &:after{
+            position: absolute;
+            content: '';
+            right: 0;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            background: url("../images/corner.gif") no-repeat;
+            background-size: 30px auto;
+        }
+    }
+}
+
+.ui-box{
+    padding:6px $wrap-padding;
+    background: $default-bg;
+    &>li{
+        padding:8px 0;
+        font-size: $font-size-sub;
+        &>.ui-btn.ui-pull-right{
+            position: relative;
+            top: -5px;
+        }
+    }
+    &-inset{
+        margin-left: $wrap-padding-s;
+        margin-right: $wrap-padding-s;
+        border-radius: $border-radius-base;
+    }
+
+    &-v{
+        padding: 40px 10px;
+    }
+}

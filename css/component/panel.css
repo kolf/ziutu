@@ -1,0 +1,40 @@
+.ui-panel {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 4px 0;
+  margin-bottom: 10px; }
+  .ui-panel-list {
+    background: #fff;
+    padding: 10px 15px; }
+  .ui-panel-heading {
+    overflow: hidden;
+    color: #f75549;
+    padding: 0 10px 4px;
+    border-bottom: 1px solid #e0e0e0; }
+  .ui-panel-corner {
+    position: relative; }
+    .ui-panel-corner:after {
+      position: absolute;
+      content: '';
+      right: 0;
+      top: 0;
+      width: 30px;
+      height: 30px;
+      background: url("../images/corner.gif") no-repeat;
+      background-size: 30px auto; }
+
+.ui-box {
+  padding: 6px 15px;
+  background: #fff; }
+  .ui-box > li {
+    padding: 8px 0;
+    font-size: 14px; }
+    .ui-box > li > .ui-btn.ui-pull-right {
+      position: relative;
+      top: -5px; }
+  .ui-box-inset {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px; }
+  .ui-box-v {
+    padding: 40px 10px; }

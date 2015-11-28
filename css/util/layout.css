@@ -1,0 +1,223 @@
+@charset "UTF-8";
+.ui-header,
+.ui-footer {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  left: 0; }
+
+.ui-header {
+  top: 0;
+  height: 45px;
+  line-height: 45px; }
+
+.ui-header-stable,
+.ui-header-positive {
+  padding: 0 10px;
+  box-sizing: border-box; }
+
+.ui-header-stable,
+.ui-footer-stable {
+  background-color: #fff; }
+
+.ui-header-positive,
+.ui-footer-positive {
+  background-color: #18b4ed;
+  color: #fff; }
+  .ui-header-positive a, .ui-header-positive a:active, .ui-header-positive i,
+  .ui-footer-positive a,
+  .ui-footer-positive a:active,
+  .ui-footer-positive i {
+    color: #fff; }
+
+.ui-footer-btn {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), to(#e0e0e0));
+  color: #00a5e0; }
+  .ui-footer-btn .ui-tiled {
+    height: 100%; }
+
+.ui-footer {
+  bottom: 0;
+  height: 56px; }
+
+.ui-header ~ .ui-container {
+  border-top: 55px solid transparent; }
+
+.ui-footer ~ .ui-container {
+  border-bottom: 65px solid transparent; }
+
+.ui-header h1 {
+  text-align: center;
+  font-size: 18px; }
+
+.ui-header .ui-icon-return {
+  position: absolute;
+  left: 0; }
+
+.ui-header .ui-btn {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -15px;
+  background: #fff;
+  border-color: #fff;
+  padding: 0; }
+
+.ui-header .ui-btn:before {
+  border: none; }
+
+.ui-header .ui-btn-navbar {
+  margin-top: 5px; }
+
+/**
+ * 垂直上下居中
+ */
+.ui-center {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  text-align: center;
+  height: 150px; }
+
+/**
+ * 排版
+ */
+.ui-flex,
+.ui-tiled {
+  display: -webkit-box;
+  width: 100%;
+  -webkit-box-sizing: border-box; }
+
+.ui-flex-ver {
+  -webkit-box-orient: vertical; }
+
+.ui-flex-pack-start {
+  -webkit-box-pack: start; }
+
+.ui-flex-pack-end {
+  -webkit-box-pack: end; }
+
+.ui-flex-pack-center {
+  -webkit-box-pack: center; }
+
+.ui-flex-align-start {
+  -webkit-box-align: start; }
+
+.ui-flex-align-end {
+  -webkit-box-align: end; }
+
+.ui-flex-align-center {
+  -webkit-box-align: center; }
+
+/**
+ * 平铺
+ */
+.ui-tiled li {
+  -webkit-box-flex: 1;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: center; }
+
+.ui-pull-left {
+  float: left; }
+
+.ui-pull-right {
+  float: right; }
+
+.ui-gap-r-s {
+  margin-right: 10px; }
+
+.ui-gap-t-s {
+  margin-top: 10px; }
+
+.ui-pad {
+  padding: 15px; }
+  .ui-pad-t-s {
+    padding-top: 10px; }
+  .ui-pad-b {
+    padding-bottom: 15px; }
+  .ui-pad-s {
+    padding: 10px; }
+  .ui-pad-h {
+    padding-left: 0;
+    padding-right: 0; }
+  .ui-pad-v {
+    padding-top: 0;
+    padding-bottom: 0; }
+  .ui-pad-lg {
+    padding: 30px; }
+
+.ui-bg-white {
+  background: #fff !important; }
+
+.ui-bg-transparent {
+  background: transparent !important; }
+
+.ui-no-gap {
+  margin: 0 !important; }
+
+.ui-no-pad {
+  padding: 0 !important; }
+
+.ui-guide {
+  position: absolute;
+  left: 0;
+  top: 45px;
+  bottom: 55px;
+  right: 0;
+  background: #fff;
+  text-align: center; }
+  .ui-guide-nav {
+    background: #f6f6f6 url(../images/guide_b.gif?11) repeat-y top right;
+    height: 100%;
+    padding: 15px 0;
+    overflow-y: auto; }
+    .ui-guide-nav li {
+      padding: 15px; }
+      .ui-guide-nav li.current {
+        color: #f75549;
+        background: url("../images/guide_a.gif") center right no-repeat;
+        background-size: 14px auto; }
+  .ui-guide-container {
+    padding: 20px 10px;
+    height: 100%;
+    overflow-y: auto; }
+  .ui-guide-content {
+    display: none; }
+    .ui-guide-content.current {
+      display: block; }
+    .ui-guide-content li {
+      padding-bottom: 20px; }
+
+.ui-inline {
+  display: inline-block !important; }
+
+.ui-thumb-alpha {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 62.5%; }
+  .ui-thumb-alpha > span {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%; }
+  .ui-thumb-alpha > figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+    padding: 5px 15px;
+    color: #eee; }

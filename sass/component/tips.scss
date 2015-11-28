@@ -1,0 +1,38 @@
+@import
+
+    "../base/mixin",
+    "../base/variable";
+
+.ui-tips{
+    padding: $tips-padding;
+    background: $default-bg;
+    text-align: center;
+    font-size: $font-size-info;
+    color: $txt-default;
+    i{
+        display: inline-block;
+        width: 80px;
+        height:80px;
+        margin-bottom:10px;
+        vertical-align: top;
+    }
+}
+.ui-tips i:before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url("../images/icon_lg.png") no-repeat;
+    -webkit-background-size: 80px auto;
+    position: absolute;
+    line-height: 100;
+}
+.ui-tips-success i:before{
+    background-position: 0 -80px;
+}
+.ui-tips-warn i:before{
+    background-position: 0 0;
+}
+.ui-tips-money i:before{
+    background-position: 0 -160px;
+}

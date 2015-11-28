@@ -1,0 +1,16 @@
+.ui-icon-star {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  position: relative;
+  vertical-align: middle; }
+
+.ui-icon-star:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: red;
+  position: absolute;
+  line-height: 100px;
+  top: -13px; }

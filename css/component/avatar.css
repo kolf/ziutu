@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/**
+ * 圆角头像，列表场景
+ */
+.ui-avatar,
+.ui-avatar-lg,
+.ui-avatar-s,
+.ui-avatar-xs,
+.ui-avatar-one,
+.ui-avatar-tiled {
+  display: block;
+  -webkit-background-size: cover;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTZEOTkyRDA5NEI0MTFFNUI4NEM4MDYwRkVGMkI2OUQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTZEOTkyQ0Y5NEI0MTFFNUI4NEM4MDYwRkVGMkI2OUQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmRpZDo0M0U2RERFQ0IzOTRFNTExQTE4M0E0OEJEMDYzNzc4NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0M0U2RERFQ0IzOTRFNTExQTE4M0E0OEJEMDYzNzc4NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpYTB0gAAAFWUExURb/EyePp8Lm+wtzi6cHGy9bc4ufu9cbL0OXs88XKz9vh59Xb4bu/xL7DyL3Cx9rg5ubt9NPZ38jO07a6v7O4vLW5vcPIzejv9re8wOLo79Ta4M3T2bW6vsnO0+jv9c/U2rvAxeHo7rq+w9HX3ePq8cHFysbL0dfd493k6r/DyLS4vbe7wMnO1LzBxcLHzebt88fM0d/m7eLp8OTq8eDm7cXK0Lq/w+Tr8s3S2M7U2bi8wdje5ODn7uHo79Xc4cbM0cLHzOft9Nrg5+Dn7d7k67e7v7zBxt3j6bvAxMrQ1cTJzsjN0tXa4cXL0NLY3dfe5OTr8c/V29HW3Nzj6dLY3sTKz7a7v8zS17i9wd7l673Bxtje5bm+w9PY3s/V2uHn7svQ1srP1cfM0tnf5dzi6LS4vMvR1tvi6L7Dx+Xs8uLp773CxuPq8N/l68vQ1c3T2LO3u+nw98e3dcQAAALkSURBVHja7Nnnc9owGAdgQoVjzN6EkQAhpNkJBMho0swmzezee+/++P+/1MyYDFnIqL3r6f1iy7b83MnyK8m21f5C2CQiEYlIRCIS+f+QETK5f/hDKKIS1CO0KBJxwu1TXh8jfkccomEqX98+xDtxyCcsN7ZZVMQhHlxv7rzAkDAk1773BPaEIXYMtK7Htdah99MzY8k5sch8o0vbF0UiQUTuLmhRTJXEISWEtebr4xSHBFo3L33EsDCkAFe7vCcMGYPWTjfjwpBOJxuEQyL/HHEEAo4t0UgrRCJOUg4Gy8QuFOmM+f6+I/kLSDv6h5zGsaIKRtKA8wqjlgSC/UCCwOjVZ0/COLSOpBGmtsjpJNJWEQ1Yp1+xDvisIf59JE1nyaj4LSEFkNhZaeDmrcEbhrOBL8561yYoWEE0RIpnJcWt55P4WUe7rxeJvi1G6A1mgkS7GsvXyFquTtmll3LNBpvlR3YQUinI1xXgVePJPerM+XpHpvHLWDzfXLVq4kNz5zH1laQjM1joKp9/8J3YRoYXWYCbdU49g6ecyEtMsyK3aamHiswbHrJJOFDmRDpLH/P4ie+cSBzMy1AVu5xIBAorEkOYEwHYl2y0a6lICnOsxiZSnEgOa6xIHk84EWI2GhnT9RgnQn3DumMUbzmRcRywIge0xRAVqSLE2IeHd1HlzcKEZbFWj9XGCMmHnFDrGmID97gRfZRiyl47gJ9/jH9D65nGZk1bmEjEMizZ3oGKYmXeFUDI9ANXfgoPrE1Tj+E16caKx+wDiymi34JQP58Mz8KrWp3VD7lBKF1ncwN2swZlWJ9k3XiWverkmhe5bD9WWkUbUoHLTyVS8Hzrz5pRmQc82sXjnyeAAkN2Y1xiu7w6k+gaJ/1HOuE9YqnN/EMgqTOTZHl1UY3F1O3nIySiE0tsdXv4tZGIoitmE6w1e/p/omz9jmZC4XAoE13yKez15O8miUhEIhKRiESM8UeAAQDAhK3ndpSPngAAAABJRU5ErkJggg==); }
+
+.ui-avatar {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 200px;
+  overflow: hidden; }
+  .ui-avatar > span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -webkit-border-radius: 200px; }
+  .ui-avatar-txt {
+    overflow: visible !important; }
+
+.ui-avatar-lg,
+.ui-avatar-one {
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 200px;
+  overflow: hidden; }
+  .ui-avatar-lg > span,
+  .ui-avatar-one > span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -webkit-border-radius: 200px; }
+  .ui-avatar-lg-txt,
+  .ui-avatar-one-txt {
+    overflow: visible !important; }
+
+.ui-avatar-s {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 200px;
+  overflow: hidden; }
+  .ui-avatar-s > span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -webkit-border-radius: 200px; }
+  .ui-avatar-s-txt {
+    overflow: visible !important; }
+
+.ui-avatar-xs {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 200px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 30px;
+  background: #f75549;
+  border: 2px solid #fff;
+  color: #eee;
+  margin-top: 20px !important;
+  box-shadow: 1px 1px 5px #ddd; }
+  .ui-avatar-xs > span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -webkit-border-radius: 200px; }
+  .ui-avatar-xs-txt {
+    overflow: visible !important; }
+
+/* 平铺场景 */
+.ui-avatar-tiled {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 200px;
+  overflow: hidden;
+  display: inline-block; }
+  .ui-avatar-tiled > span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -webkit-border-radius: 200px; }
+  .ui-avatar-tiled-txt {
+    overflow: visible !important; }

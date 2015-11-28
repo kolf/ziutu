@@ -1,0 +1,37 @@
+.ui-input-wrap {
+  background-color: #ebeced;
+  height: 44px;
+  display: -webkit-box;
+  -webkit-box-align: center; }
+  .ui-input-wrap .ui-btn, .ui-input-wrap i {
+    margin-right: 10px; }
+
+.ui-input {
+  height: 30px;
+  line-height: 30px;
+  margin: 7px 10px;
+  background: #fff;
+  padding-left: 10px;
+  -webkit-box-flex: 1; }
+  .ui-input-word {
+    background: #fff url("../images/word.gif") center no-repeat;
+    background-size: 135px auto;
+    box-sizing: border-box;
+    padding: 140px 10px;
+    text-align: center; }
+    .ui-input-word input {
+      width: 110px;
+      padding: 5px;
+      box-sizing: border-box;
+      border: none;
+      background: rgba(0, 0, 0, 0.1);
+      text-align: center;
+      color: #eee; }
+
+.ui-input input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: 0 0;
+  -webkit-appearance: none;
+  outline: 0; }

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.ui-icon_star {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  position: relative;
+  vertical-align: middle; }
+  .ui-icon_star.active:after {
+    background-position: 0 -24px; }
+  .ui-icon_star-list {
+    padding-left: 15px; }
+    .ui-icon_star-list > i {
+      margin: 0 2px; }
+
+.ui-icon_star:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/star.png) -2px 0;
+  -webkit-background-size: 24px auto;
+  position: absolute;
+  line-height: 100px;
+  top: -13px; }
+
+.ui-icon-foot {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  position: relative;
+  vertical-align: middle; }
+  .ui-icon-foot:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/footer_icon.png) -2px 0;
+    -webkit-background-size: 60px auto;
+    position: absolute;
+    line-height: 100px;
+    top: -8px; }
+  .ui-icon-foot.active ~ div {
+    color: #f75549; }
+  .ui-icon-foot ~ div {
+    padding-top: 10px;
+    font-size: 14px; }
+  .ui-icon-foot_home:after {
+    background-position: 0 0; }
+  .ui-icon-foot_home.active:after {
+    background-position: -30px 0; }
+  .ui-icon-foot_order:after {
+    background-position: 0 -30px; }
+  .ui-icon-foot_order.active:after {
+    background-position: -30px -30px; }
+  .ui-icon-foot_class:after {
+    background-position: 0 -120px; }
+  .ui-icon-foot_class.active:after {
+    background-position: -30px -120px; }
+  .ui-icon-foot_tips:after {
+    background-position: 0 -60px; }
+  .ui-icon-foot_tips.active:after {
+    background-position: -30px -60px; }
+  .ui-icon-foot_my:after {
+    background-position: 0 -90px; }
+  .ui-icon-foot_my.active:after {
+    background-position: -30px -90px; }
+  .ui-icon-foot_issue {
+    width: 60px; }
+    .ui-icon-foot_issue:after {
+      width: 60px;
+      height: 60px;
+      background-position: 0 -150px;
+      top: -43px; }
+    .ui-icon-foot_issue.active:after {
+      background-position: -30px -120px; }
+
+/*<li><i class="ui-icon-foot ui-icon-foot_home"></i><div>首页</div></li>
+<li><i class="ui-icon-foot ui-icon-foot_class"></i><div>分类</div></li>
+<li><i class="ui-icon-foot ui-icon-foot_issue"></i></li>
+<li><i class="ui-icon-foot ui-icon-foot_tips"></i><div>消息</div></li>
+<li><i class="ui-icon-foot ui-icon-foot_my"></i><div>我的</div></li>
+<li><i class="ui-icon-foot ui-icon-foot_order"></i><div>我的</div></li>*/
+/*.ui-icon-vip,
+.ui-icon-svip,
+.ui-icon-yearsvip,
+.ui-icon-yearvip{
+    @extend .ui-icon-qq;
+}
+.ui-icon-vip:after{
+    background-position: -2px -25px;
+}
+.ui-icon-svip:after{
+    background-position: -2px -50px;
+}
+.ui-icon-yearsvip:after{
+    background-position: 0 -75px;
+}
+.ui-icon-yearvip:after{
+    background-position: 0 -100px;
+}*/
