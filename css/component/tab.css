@@ -16,7 +16,6 @@
   box-sizing: border-box; }
 
 .ui-tab-content {
-  margin-top: 45px;
   display: -webkit-box; }
 
 .ui-tab-content > li {
@@ -36,8 +35,8 @@
   width: 100%; }
 
 .ui-tab-nav li.current {
-  color: #00a5e0;
-  border-bottom: 2px #00a5e0 solid; }
+  color: #f75549;
+  border-bottom: 2px #f75549 solid; }
 
 .ui-tab-nav li:active {
   opacity: .8; }

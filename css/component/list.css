@@ -37,13 +37,13 @@
 .ui-list-thumb,
 .ui-list-thumb-s,
 .ui-list-img,
-.ui-list-icon {
+.ui-list-icon, .ui-list-label {
   position: relative;
   margin: 10px 10px 10px 0px; }
   .ui-list-thumb > span,
   .ui-list-thumb-s > span,
   .ui-list-img > span,
-  .ui-list-icon > span {
+  .ui-list-icon > span, .ui-list-label > span {
     display: block;
     width: 100%;
     height: 100%;
@@ -201,3 +201,6 @@
 .ui-list-tit {
   padding: 10px 15px 5px;
   font-size: 12px; }
+
+.ui-list-label {
+  width: 70px; }

@@ -217,7 +217,17 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: url("../images/banner_bg.png") repeat-x;
+    background-size: 5px auto;
     z-index: 99;
     padding: 5px 15px;
     color: #eee; }
+
+.ui-thumb-card-list .ui-thumb-list-item {
+  box-shadow: 2px 2px 4px #ccc; }
+
+.ui-thumb-card-list figcaption {
+  bottom: 40%;
+  font-size: 20px;
+  text-align: center;
+  background: none; }

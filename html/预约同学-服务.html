@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>自由兔</title>
+    <!-- style -->
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <header class="ui-header ui-header-stable">
+        <i class="ui-icon-return"></i>
+        <h1>太阳花</h1>
+    </header>
+
+    <footer class="ui-footer ui-footer-stable ui-btn-group ui-border-t">
+        <button class="ui-btn-lg ui-btn-danger">
+            预约服务
+        </button>
+    </footer>
+
+    <section class="ui-container">
+        <div class="ui-slider">
+            <ul class="ui-slider-content" style="width: 300%">
+                <li class="current"><span style="background-image:url(../images/banner1.jpg)"></span><figcaption class="ui-txt-right"><span>太阳花</span></figcaption></li>
+                <li><span style="background-image:url(../images/banner2.jpg)"></span><figcaption class="ui-txt-right"><span class="ui-pull-right">本科花</span></figcaption></li>
+                <li><span style="background-image:url(../images/banner3.jpg)"></span><figcaption class="ui-txt-right"><span class="ui-pull-right">海峡花</span></figcaption></li>
+            </ul>
+        </div>
+        <div class="ui-pad ui-txt-center ui-bg-white ui-gap-b">
+            <h4>太阳花</h4>
+            <p class="ui-pad-s ui-nowrap">一个闲的没事可做的可爱萌妹子</p>
+            <span class="ui-label-list"><label class="ui-label-s ui-label-s-2">萌妹子</label><label class="ui-label-s ui-label-s-1">文艺范儿</label><label class="ui-label-s ui-label-s-2">小清新</label></span>
+        </div>
+        <div class="ui-tab">
+            <ul class="ui-tab-nav ui-border-b ui-gap-b">
+                <li class="current">提供的服务</li>
+                <li>资料</li>
+                <li>评价</li>
+            </ul>
+            <ul class="ui-tab-content _ui-pad">
+                <li>
+                    <div class="ui-thumb-list ui-thumb-card-list ui-pad ui-pad-v">
+                        <div class="ui-thumb-list-item ui-bg-white ui-gap-b">
+                            <div class="ui-thumb-alpha">
+                                <span style="background-image:url(../images/banner1.jpg)"></span>
+                                <figcaption><span>小蛋糕的制作</span></figcaption>
+                            </div>
+                            <div>
+                                <p class="ui-pad ui-txt-info">一个闲的没事可做的可爱萌妹子一个闲的没事可做的可爱
+                                    萌妹子一个闲的没事可做的可爱萌妹子一个闲的没事可做
+                                    的可爱萌妹子</p>
+                                <p class="ui-pad-s ui-border-t ui-txt-warning">
+                                    102元起 <span class="ui-pull-right">查看详情 》</span>
+                                </p>
+                            </div>
+                        </div><div class="ui-thumb-list-item ui-bg-white ui-gap-b">
+                            <div class="ui-thumb-alpha">
+                                <span style="background-image:url(../images/banner1.jpg)"></span>
+                                <figcaption><span>小蛋糕的制作</span></figcaption>
+                            </div>
+                            <div>
+                                <p class="ui-pad ui-txt-info">一个闲的没事可做的可爱萌妹子一个闲的没事可做的可爱
+                                    萌妹子一个闲的没事可做的可爱萌妹子一个闲的没事可做
+                                    的可爱萌妹子</p>
+                                <p class="ui-pad-s ui-border-t ui-txt-warning">
+                                    102元起 <span class="ui-pull-right">查看详情 》</span>
+                                </p>
+                            </div>
+                        </div><div class="ui-thumb-list-item ui-bg-white ui-gap-b">
+                            <div class="ui-thumb-alpha">
+                                <span style="background-image:url(../images/banner1.jpg)"></span>
+                                <figcaption><span>小蛋糕的制作</span></figcaption>
+                            </div>
+                            <div>
+                                <p class="ui-pad ui-txt-info">一个闲的没事可做的可爱萌妹子一个闲的没事可做的可爱
+                                    萌妹子一个闲的没事可做的可爱萌妹子一个闲的没事可做
+                                    的可爱萌妹子</p>
+                                <p class="ui-pad-s ui-border-t ui-txt-warning">
+                                    102元起 <span class="ui-pull-right">查看详情 》</span>
+                                </p>
+                            </div>
+                        </div><div class="ui-thumb-list-item ui-bg-white ui-gap-b">
+                            <div class="ui-thumb-alpha">
+                                <span style="background-image:url(../images/banner1.jpg)"></span>
+                                <figcaption><span>小蛋糕的制作</span></figcaption>
+                            </div>
+                            <div>
+                                <p class="ui-pad ui-txt-info">一个闲的没事可做的可爱萌妹子一个闲的没事可做的可爱
+                                    萌妹子一个闲的没事可做的可爱萌妹子一个闲的没事可做
+                                    的可爱萌妹子</p>
+                                <p class="ui-pad-s ui-border-t ui-txt-warning">
+                                    102元起 <span class="ui-pull-right">查看详情 》</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="../js/lib/zepto.min.js"></script>
+    <script src="../js/lib/app.min.js"></script>
+    <script>
+        (function(){
+
+            var slider = new fz.Scroll('.ui-slider', {
+                role: 'slider',
+                indicator: true,
+                autoplay: true,
+                interval: 3000
+            });
+
+            slider.on('beforeScrollStart', function(from, to) {
+                console.log(from, to);
+            });
+
+
+        })();
+    </script>
+</body>
+</html>

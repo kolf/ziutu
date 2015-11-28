@@ -42,7 +42,7 @@
 .ui-list-thumb,
 .ui-list-thumb-s,
 .ui-list-img,
-.ui-list-icon{
+.ui-list-icon,.ui-list-label{
 	@include img;
 	margin: $list-img-margin;	
 }
@@ -176,4 +176,10 @@
 		padding: 10px 15px 5px;
 		font-size: 12px;
 	}
+
+	&-label{
+		width: 70px;
+	}
+
+
 }
