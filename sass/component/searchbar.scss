@@ -7,7 +7,6 @@
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
-    background-color: $input-wrap-bg;
     height: $line-height-bar;
     button {
         margin-right: $searchbar-padding;
@@ -18,9 +17,9 @@
         font-size: $font-size-info;
         padding: 4px 8px;
     }
-    .ui-searchbar-input,button,.ui-icon-close{
-        display: none;
-    }
+    //.ui-searchbar-input,button,.ui-icon-close{
+    //    display: none;
+    //}
     &.focus{
         -webkit-box-pack: start;
         .ui-searchbar-input,button,.ui-icon-close{
@@ -33,7 +32,7 @@
 }
 .ui-searchbar{
     border-radius: $searchbar-border;
-    margin: 0 $searchbar-padding;
+    margin: 0 $searchbar-padding 0 10px;
     background: $default-bg;
     height: $searchbar-height;
     line-height: $searchbar-height;
@@ -41,7 +40,7 @@
     padding-left: 4px;
     -webkit-box-flex: 1;
     display: -webkit-box;
-    -webkit-box-pack: center;
+    -webkit-box-pack: end;
     -webkit-box-align: center;
     color: $txt-muted;
     font-size: $font-size-sub;
@@ -52,7 +51,7 @@
         background: none;
         color: $txt-default;
         width: 100%;
-        padding: 4px 0;
+        padding: 4px;
     }
     .ui-icon-search{
         line-height: $searchbar-height;
@@ -65,8 +64,3 @@
     -webkit-box-flex: 1;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-    .ui-searchbar.ui-border-radius:before{
-          border-radius: $searchbar-border-lg;
-    }
-}

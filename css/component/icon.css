@@ -38,12 +38,13 @@
     -webkit-background-size: 60px auto;
     position: absolute;
     line-height: 100px;
-    top: -8px; }
+    top: -6px; }
   .ui-icon-foot.active ~ div {
     color: #f75549; }
   .ui-icon-foot ~ div {
-    padding-top: 10px;
-    font-size: 14px; }
+    padding-top: 14px;
+    font-size: 14px;
+    color: #999; }
   .ui-icon-foot_home:after {
     background-position: 0 0; }
   .ui-icon-foot_home.active:after {

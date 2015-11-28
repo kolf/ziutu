@@ -4,32 +4,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <title>修改密码</title>
+    <title>自由兔</title>
     <link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
 <header class="ui-header ui-header-stable">
     <i class="ui-icon-return"></i>
-    <h1>个人中心</h1>
+    <h1>支付</h1>
 </header>
 <section class="ui-container">
-    <ul class="ui-list ui-list-text ui-border-tb ui-gap-b">
-        <li>
-            <div class="ui-list-info">
-                <h4>订单共需支付<span class="ui-txt-highlight">450</span>元</h4>
+    <div class="ui-form ui-border-tb ui-gap-b">
+            <div class="ui-form-item ui-border-b">
+                <label for="#">余额支付</label>
+                <div class="ui-pull-right ui-txt-info ui-txt-sub">当前余额: <span class="ui-txt-highlight">450</span>元</div>
             </div>
-            <div class="ui-list-action">当前余额<span class="ui-txt-highlight">450</span>元</div>
+            <div class="ui-form-item">
+                <label for="#">金额：</label>
+                <input type="number" placeholder="请填写支付金额">
+            </div>
+    </div>
+    <ul class="ui-list ui-list-text ui-list-radio ui-border-tb">
+        <li class="ui-border-b">
+            请选择其他支付方式
         </li>
-    </ul>    <ul class="ui-list ui-list-text ui-border-tb ui-gap-b">
         <li>
-            请选择支付方式
+            <label class="ui-checkbox-s">
+                <input type="checkbox" name="checkbox" checked>
+            </label>
+            <div class="ui-flex  ui-flex-align-center" style="height:20px;width:200px;">
+                <div class="ui-pad-s ui-pad-v"><img src="../images/wx.gif"  width="20" alt=""></div><div>微信支付</div>
+            </div>
         </li>
     </ul>
 
+<!--    <ul class="ui-list ui-list-text ui-list-radio ui-border-tb">
+        <li class="ui-border-t">
+            请选择其他支付方式
+        </li>
+        <li class="ui-border-t">
+            <label class="ui-radio" for="radio">
+                <input type="radio" checked name="radio">
+            </label>
+            <p><span class="ui-avatar-tiled ui-pull-left"><span style="background-image:url(http://placeholder.qiniudn.com/60x60)"></span></span>微信支付</p>
 
-    <div class="ui-btn-wrap">
+        </li>
+    </ul>-->
+    <!--<ul class="ui-list ui-list-text ui-border-tb ui-gap-b">-->
+        <!--<li>-->
+            <!--<div class="ui-list-info">-->
+                <!--<h4>订单共需支付<span class="ui-txt-highlight">450</span>元</h4>-->
+            <!--</div>-->
+            <!--<div class="ui-list-action">当前余额<span class="ui-txt-highlight">450</span>元</div>-->
+        <!--</li>-->
+    <!--</ul>    <ul class="ui-list ui-list-text ui-border-tb ui-gap-b">-->
+        <!--<li>-->
+            <!--请选择支付方式-->
+        <!--</li>-->
+    <!--</ul>-->
+
+
+    <div class="ui-box-v">
         <button class="ui-btn-lg ui-btn-danger">
-            确认修改
+            确认
         </button>
     </div>
 

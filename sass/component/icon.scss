@@ -54,7 +54,7 @@
         -webkit-background-size: 60px auto;
         position: absolute;
         line-height: 100px;
-        top: -8px;
+        top: -6px;
     }
 
     &.active{
@@ -64,8 +64,9 @@
     }
 
     &~div{
-        padding-top: 10px;
+        padding-top: 14px;
         font-size: 14px;
+        color: #999;
     }
 
     &_home{

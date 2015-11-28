@@ -19,7 +19,7 @@
 	height: $line-height-bar;
 	line-height: $line-height-bar;
 	padding-right: $wrap-padding;
-	padding-left: $wrap-padding;
+	margin-left: $wrap-padding;
 
 	label:not(.ui-switch):not(.ui-checkbox):not(.ui-radio){
 		width: $form-label-width;

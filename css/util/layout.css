@@ -70,6 +70,10 @@
 .ui-header .ui-btn-navbar {
   margin-top: 5px; }
 
+.ui-header-downmenu {
+  width: 70px;
+  padding-left: 15px; }
+
 /**
  * 垂直上下居中
  */
@@ -231,3 +235,71 @@
   font-size: 20px;
   text-align: center;
   background: none; }
+
+.ui-header-no-gap {
+  margin-top: -10px; }
+
+.ui-article > * {
+  margin-bottom: 15px; }
+
+.ui-article h4 {
+  color: #f75549;
+  border-left: 2px solid #f75549;
+  line-height: 16px;
+  padding-left: 10px; }
+
+.ui-strip-item {
+  height: 40px;
+  background: #B6FDDF;
+  border: 1px solid #ccc;
+  margin: 5px -1px; }
+  .ui-strip-item.current {
+    background: #FFCFCF; }
+  .ui-strip-item.disabled {
+    background: #f8f8f8; }
+  .ui-strip-item-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: #B6FDDF;
+    position: relative;
+    top: 3px;
+    margin-right: 5px; }
+    .ui-strip-item-icon.current {
+      background: #FFCFCF; }
+    .ui-strip-item-icon.disabled {
+      background: #f8f8f8; }
+
+.actionsheet {
+  position: fixed;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.6);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none; }
+  .actionsheet-cnt {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 15px 15px 55px;
+    text-align: center;
+    background: #fff; }
+    .actionsheet-cnt h4 {
+      padding-bottom: 5px; }
+    .actionsheet-cnt .button-group {
+      max-height: 320px;
+      overflow-y: auto;
+      padding-bottom: 10px; }
+    .actionsheet-cnt button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #e0e0e0;
+      padding: 14px 15px; }
+      .actionsheet-cnt button.current {
+        background: #e0e0e0; }

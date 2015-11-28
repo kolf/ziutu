@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>自由兔</title>
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+<header class="ui-header ui-bg-white ui-row-flex">
+    <div class="ui-header-downmenu ui-row-flex ui-txt-warning">北京<i class="ui-icon-unfold ui-txt-warning"></i></div>
+    <div class="ui-searchbar-wrap ui-col">
+        <div class="ui-searchbar ui-border-radius">
+            <div class="ui-searchbar-input"><input value="" type="search" placeholder="输入关健字进行搜索"></div>
+            <i class="ui-icon-search"></i>
+        </div>
+    </div>
+</header>
+<footer class="ui-footer ui-footer-stable ui-border-t">
+    <ul class="ui-tiled">
+        <li><i class="ui-icon-foot ui-icon-foot_home active"></i><div>首页</div></li>
+        <li><i class="ui-icon-foot ui-icon-foot_class"></i><div>分类</div></li>
+        <li><i class="ui-icon-foot ui-icon-foot_issue"></i></li>
+        <li><i class="ui-icon-foot ui-icon-foot_order"></i><div>订单</div></li>
+        <li><i class="ui-icon-foot ui-icon-foot_my"></i><div>我的</div></li>
+    </ul>
+</footer>
+<section class="ui-container ui-header-no-gap">
+    <div class="ui-slider ui-slider-ad ui-gap-b">
+        <ul class="ui-slider-content" style="width: 300%">
+            <li class="current"><span style="background-image:url(../images/banner1.jpg)"></span></li>
+            <li><span style="background-image:url(../images/banner2.jpg)"></span></li>
+            <li><span style="background-image:url(../images/banner3.jpg)"></span></li>
+        </ul>
+    </div>
+    <div class="ui-thumb-list ui-bg-white">
+       <div class="ui-thumb-list-item">
+           <div class="ui-thumb-alpha">
+               <span style="background-image:url(../images/banner1.jpg)"></span>
+               <figcaption><span>太阳花</span></figcaption>
+           </div>
+           <div class="ui-pad">
+               <h4 class="ui-gap-b">西餐礼仪教学体验 <div class="ui-pull-right"><span class="ui-btn ui-btn-danger">￥200起</span></div></h4>
+               <p class="ui-label-list"><label class="ui-label-s ui-label-s-2">鲜花速递</label><label class="ui-label-s ui-label-s-1">本科</label><label class="ui-label-s ui-label-s-1">本科</label></p>
+           </div>
+       </div><div class="ui-thumb-list-item">
+           <div class="ui-thumb-alpha">
+               <span style="background-image:url(../images/banner2.jpg)"></span>
+               <figcaption><span>太阳花</span></figcaption>
+           </div>
+           <div class="ui-pad">
+               <h4 class="ui-gap-b">西餐礼仪教学体验 <div class="ui-pull-right"><span class="ui-btn ui-btn-danger">￥200起</span></div></h4>
+               <p class="ui-label-list"><label class="ui-label-s ui-label-s-2">鲜花速递</label><label class="ui-label-s ui-label-s-1">本科</label><label class="ui-label-s ui-label-s-1">本科</label></p>
+           </div>
+       </div><div class="ui-thumb-list-item">
+           <div class="ui-thumb-alpha">
+               <span style="background-image:url(../images/banner2.jpg)"></span>
+               <figcaption><span>太阳花</span></figcaption>
+           </div>
+           <div class="ui-pad">
+               <h4 class="ui-gap-b">西餐礼仪教学体验 <div class="ui-pull-right"><span class="ui-btn ui-btn-danger">￥200起</span></div></h4>
+               <p class="ui-label-list"><label class="ui-label-s ui-label-s-2">鲜花速递</label><label class="ui-label-s ui-label-s-1">本科</label><label class="ui-label-s ui-label-s-1">本科</label></p>
+           </div>
+       </div><div class="ui-thumb-list-item">
+           <div class="ui-thumb-alpha">
+               <span style="background-image:url(../images/banner1.jpg)"></span>
+               <figcaption><span>太阳花</span></figcaption>
+           </div>
+           <div class="ui-pad">
+               <h4 class="ui-gap-b">西餐礼仪教学体验 <div class="ui-pull-right"><span class="ui-btn ui-btn-danger">￥200起</span></div></h4>
+               <p class="ui-label-list"><label class="ui-label-s ui-label-s-2">鲜花速递</label><label class="ui-label-s ui-label-s-1">本科</label><label class="ui-label-s ui-label-s-1">本科</label></p>
+           </div>
+       </div><div class="ui-thumb-list-item">
+           <div class="ui-thumb-alpha">
+               <span style="background-image:url(../images/banner3.jpg)"></span>
+               <figcaption><span>太阳花</span></figcaption>
+           </div>
+           <div class="ui-pad">
+               <h4 class="ui-gap-b">西餐礼仪教学体验 <div class="ui-pull-right"><span class="ui-btn ui-btn-danger">￥200起</span></div></h4>
+               <p class="ui-label-list"><label class="ui-label-s ui-label-s-2">鲜花速递</label><label class="ui-label-s ui-label-s-1">本科</label><label class="ui-label-s ui-label-s-1">本科</label></p>
+           </div>
+       </div>
+    </div>
+</section>
+
+    <!-- javascript -->
+    <script src="../js/lib/zepto.min.js"></script>
+    <script src="../js/lib/app.min.js"></script>
+    <script>
+        (function(){
+
+            var slider = new fz.Scroll('.ui-slider', {
+                role: 'slider',
+                indicator: true,
+                autoplay: true,
+                interval: 3000
+            });
+
+            slider.on('beforeScrollStart', function(from, to) {
+                console.log(from, to);
+            });
+
+
+        })();
+    </script>
+</body>
+</html>

@@ -74,6 +74,12 @@
     .ui-btn-navbar{
         margin-top:5px;
     }
+
+
+    &-downmenu{
+        width:70px;
+        padding-left:15px;
+    }
 }
 /**
  * 垂直上下居中
@@ -281,6 +287,103 @@
                     text-align: center;
                     background: none;
                 }
+            }
+        }
+    }
+
+    &-header-no-gap{
+        margin-top: -10px;
+    }
+
+    &-article{
+        &>*{
+            margin-bottom:15px;
+        }
+        h4{
+            color: $button-danger-bg-color;
+            border-left: 2px solid $button-danger-bg-color;
+            line-height: 16px;
+            padding-left:10px;
+        }
+        p{
+
+        }
+    }
+
+    &-strip{
+        &-item{
+            height: 40px;
+            background: #B6FDDF;
+            border:1px solid #ccc;
+            margin:5px -1px;
+            &.current{
+                background: #FFCFCF;
+            }
+
+            &.disabled{
+                background: #f8f8f8;
+            }
+
+            &-icon{
+                width: 16px;
+                height: 16px;
+                display: inline-block;
+                background:#B6FDDF ;
+                position: relative;
+                top: 3px;
+                margin-right:5px;
+
+                &.current{
+                    background: #FFCFCF;
+                }
+
+                &.disabled{
+                    background: #f8f8f8;
+                }
+            }
+        }
+    }
+}
+
+.actionsheet{
+    position: fixed;
+    z-index:$z-index-tooltips;
+    background: $poptips-bg;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+
+    &-cnt{
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding:15px 15px 55px;
+        text-align: center;
+        background: #fff;
+
+        h4{
+            padding-bottom: 5px;
+        }
+        
+        .button-group{
+            max-height: 320px;
+            overflow-y: auto;
+            padding-bottom:10px;
+        }
+        button{
+            display: block;
+            width: 100%;
+            text-align: left;
+            margin-top:10px;
+            border-radius: $border-radius-base;
+            border:1px solid $bordercolor;
+            padding:14px $wrap-padding;
+
+            &.current{
+                background: $bordercolor;
             }
         }
     }

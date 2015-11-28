@@ -11,7 +11,17 @@
     overflow: hidden;
     position: relative;
     padding-top: 62.5%; //默认200px
-    margin-top:-10px;
+
+    &-ad{
+        padding-top: 40%;
+
+        .ui-slider-indicators{
+            top: 100%;
+            margin-top: -20px;
+            text-align: right;
+            right: 10px;
+        }
+    }
 }
 .ui-slider-content {
     display: -webkit-box;
